@@ -10,7 +10,7 @@
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: var(--base-text-color);
   margin: 0;
 }
@@ -40,7 +40,7 @@ footer {
 }
 
 .logo {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
   color: var(--base-text-color);
@@ -264,6 +264,8 @@ footer {
 .portfolio-filters button:hover {
   background: var(--accent-color);
   color: var(--text-color-white);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .product-line {
