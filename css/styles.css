@@ -7,6 +7,7 @@
   --text-color-grey: #757575;
   --white-background: #ffffff;
   --grey-border: #eeeeee;
+  --container-width: 1170px;
 }
 
 body {
@@ -26,7 +27,7 @@ header {
 }
 
 .container {
-  width: 1170px;
+  width: var(--container-width);
   margin: auto;
 }
 
@@ -112,7 +113,7 @@ footer {
   padding: 94px 0px;
   display: flex;
   justify-content: center;
-  width: 1170px;
+  width: var(--container-width);
   margin: auto;
 }
 
@@ -142,7 +143,7 @@ footer {
 
 .container-work {
   padding: 0px 0px 94px 0px;
-  width: 1170px;
+  width: var(--container-width);
   margin: auto;
 }
 
@@ -165,7 +166,7 @@ footer {
 
 .container-team {
   padding: 94px 0px;
-  width: 1170px;
+  width: var(--container-width);
   margin: auto;
 }
 
@@ -207,7 +208,7 @@ footer {
 
 .container-address {
   padding: 60px 0px;
-  width: 1170px;
+  width: var(--container-width);
   margin: auto;
 }
 
@@ -236,7 +237,7 @@ footer {
 
 .container-portfolio {
   padding: 94px 0px;
-  width: 1170px;
+  width: var(--container-width);
   margin: auto;
 }
 
