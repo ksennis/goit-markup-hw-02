@@ -48,6 +48,15 @@ body {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
+  font-weight: 500;
+}
+
+.contact-link {
+  color: var(--text-color-grey);
+}
+
+.list {
+  list-style: none;
 }
 
 .navigation-link-active {
@@ -167,7 +176,7 @@ body {
   text-decoration: none;
 }
 
-.portfolio-filters {
+.filters-button {
   font-family: inherit;
   font-weight: 500;
   border-radius: 4px;
@@ -178,10 +187,7 @@ body {
   line-height: 26px;
   text-align: center;
   letter-spacing: 0.03em;
-  cursor: pointer;
-  /* padding: 9px 22px;
-  margin-right: 8px; */
-  
+  cursor: pointer
 }
 
 .filters-button:hover {
